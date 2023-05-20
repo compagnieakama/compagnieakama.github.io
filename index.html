@@ -17,21 +17,25 @@
   <meta name="twitter:image" content="" />
 
   <style>
-	*, *:before, *:after { box-sizing: border-box }
+  	*, *:before, *:after { box-sizing: border-box }
 
   	html, body, iframe {
-          width: 100%;
-          height: 100%;
-          margin: 0;
-          border: 0;
-        }
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border: 0;      
+    }
 
-	html, body { overflow: hidden; }
+	  html, body { overflow: hidden; }
+    iframe {
+      margin-top: -60px;
+      height: calc(100% - 60px);
+    }
   </style>
   
 </head>
 <body>
-  <iframe id="iframe" src="https://compagnieakama.wixsite.com/my-site" />
+  <iframe id="iframe" src="https://compagnieakama.wixsite.com/my-site"></iframe>
 </body>
 </html>
 
